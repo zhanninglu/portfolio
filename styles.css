@@ -1,0 +1,393 @@
+body {margin:0;
+  height: 100%;
+  
+}
+html *
+{
+   font-family: Arial !important;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-weight: 580;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.main{
+  
+  height: 100vh;
+  width: 100%;
+  background-color: #333;
+}
+.intro{
+
+  padding-top: 200px;
+  height: 800px;
+  width: 100%;
+  background-color: white;
+
+}
+.intro-next{  
+  position: absolute;
+  bottom:2%;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+.pro-next{  
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  margin-top: 300px;
+  font-weight: 500;
+}
+.pro{
+  padding-top: 50px;
+  height: auto;
+  width: 100%;
+  background-color: #333;
+  padding-bottom: 100px;
+}
+
+
+.intro-title{
+  opacity: 0;
+  display: flex;
+  font-size: 55px;
+  justify-items: center;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 200px;
+  margin-left: 500px;
+  transform: scale(1.2);
+}
+.intro-text{
+  opacity: 0;
+  display: flex;
+  font-size: 30px;
+  justify-items: center;
+  align-items: center;
+  color:#777;
+  margin-top: 70px;
+  margin-left: 500px;
+  width: 600px;
+  transform: scale(1.2);
+}
+
+.sp{
+  position: absolute;
+  font-size: 300px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  transform: scale(1.2);
+  opacity: 0;
+}
+.comment{
+  position: absolute;
+  top:60%;
+  left:56%;
+  font-size: 20px;
+  color: white;
+  transform: scale(1.2);
+  opacity: 0;
+}
+
+
+.arrow,
+.arrow:before{
+  position: absolute;
+  left: 50%;
+}
+.arrow{
+  width: 20px;
+  height: 20px;
+  bottom: 1%;
+  margin: -20px 0 0 -10px;
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #fff solid;
+  border-bottom: 2px #fff solid;
+}
+  
+.arrow:before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}
+.arrow1,
+.arrow1:before{
+  position: absolute;
+  left: 50%;
+}
+.arrow1{
+
+  width: 20px;
+  height: 20px;
+  margin: -20px 0 0 -10px;
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #333 solid;
+  border-bottom: 2px #333 solid;
+}
+  
+.arrow1:before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #333 solid;
+  border-bottom: 1px #333 solid;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}
+@keyframes arrow{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    transform: translate(-10px, -10px);
+  }
+}
+
+
+
+
+
+
+.card {
+  opacity: 0;
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 60%;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  transform: scale(1.2);
+}
+.card2 {
+  opacity: 0;
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 60%;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  transform: scale(1.2);
+}
+.card3 {
+  opacity: 0;
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 60%;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  transform: scale(1.2);
+}
+.card4 {
+  opacity: 0;
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 60%;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  transform: scale(1.2);
+}
+
+.card-img{
+  height: 400px;
+  width: 40%;
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+.card-content{
+  margin-left: 80px;
+}
+.card-title{
+  margin-top: 100px;
+  font-size: 35px;  
+  font-weight: 600;
+}
+.card-text{
+  font-size: 18px;  
+  color: #777;
+  width: 500px;
+  margin-top: 50px;
+}
+.explore{
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 18px;  
+  margin-top: 50px;
+  
+}
+a{
+  color: #333;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .intro-text{
+    transition: opacity 2.5s ease, transform 1.5s ease;
+  }
+  .intro-title{
+    transition: opacity 2.5s ease, transform 1.5s ease;
+  }
+  .card{
+    transition: opacity 2.5s ease, transform 1.5s ease;
+  }
+  .card2{
+    transition: opacity 2.5s ease, transform 1.5s ease;
+  }
+  .card3{
+    transition: opacity 2.5s ease, transform 1.5s ease;
+  }
+  .card4{
+    transition: opacity 2.5s ease, transform 1.5s ease;
+  }
+  .sp{
+    transition: opacity 2.5s ease, transform 1.5s ease;
+  }
+  .comment{
+    transition: opacity 2.5s ease, transform 1.5s ease;
+  }
+}
+
+.square-transition {
+  opacity: 1;
+  transform: none;
+}
+
+.content{
+  display: flex;
+  padding-top: 10%;
+  padding-left: 10%;
+
+}
+.content-img{
+  height: 600px;
+  width: 500px;
+}
+.content-img2{
+  height: 600px;
+  width: 600px;
+  margin-right: -100px;
+}
+
+.content-content{
+  margin-left: 200px;
+  width: 800px;
+}
+.content-title{
+  font-size: 35px;  
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.content-subtitle{
+  margin-top: 20px;
+  font-size: 25px;  
+  font-weight: 600;
+}
+.content-text{
+  margin-top: 20px;
+  font-size: 18px;  
+}
+.link{
+  margin-top: 50px;
+  font-size: 18px;  
+}
+
+.icon {
+  
+  transform: translate(-50%,-50%);
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+
+}
+.nnn{
+  position: absolute;
+  bottom: 0%;
+  left: 80%;
+  display: flex;
+}
+.nnn-next{
+  margin-top: -10px;
+  color: #333;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.arrow2 {
+  position: absolute;
+  top: 25px;
+  width: 90%;
+  height: 10px;
+  background-color: #333;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  animation: arrow 2000ms linear infinite;
+}
+
+.arrow2::after, .arrow2::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 10px;
+  right: -8px;
+  background-color: #333; 
+}
+
+.arrow2::after {
+  top: -12px;
+  transform: rotate(45deg);
+}
+
+.arrow2::before {
+  top: 12px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  transform: rotate(-45deg);
+}
